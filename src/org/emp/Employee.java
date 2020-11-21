@@ -15,6 +15,10 @@ public void empDob() {
 }
 public  void test() {
 	System.out.println("Task 1");
+
+}
+public  void test2() {
+	System.out.println("Task 4");
 }
 public void empPhone() {
 	System.out.println("Employee Phone num is 7708583705");
@@ -36,6 +40,7 @@ public static void main(String[] args) {
 	e.empName();
 	e.empPhone();
 	e.test();
+	e.test2();
 }
 }
 
