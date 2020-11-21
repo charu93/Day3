@@ -13,6 +13,9 @@ public void empName() {
 public void empDob() {
 	System.out.println("Emp Dob: 04 Jan 1994 ");
 }
+public  void test() {
+	System.out.println("Task 1");
+}
 public void empPhone() {
 	System.out.println("Employee Phone num is 7708583705");
 }
@@ -23,6 +26,7 @@ public void empEmail() {
 public void empAddress() {
 	System.out.println("Employee Address is Bangalore");
 }
+
 public static void main(String[] args) {
 	Employee e = new Employee();
 	e.empAddress();
@@ -31,6 +35,7 @@ public static void main(String[] args) {
 	e.empId();
 	e.empName();
 	e.empPhone();
+	e.test();
 }
 }
 
